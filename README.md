@@ -20,15 +20,15 @@ class SIR extends Gill {
                 do: () => {
                     this.S -= 1
                     this.I += 1
-                }
+                },
             },
             {
                 p: gamma * I,
                 do: () => {
                     this.I -= 1
                     this.R += 1
-                }
-            }
+                },
+            },
         ]
     }
 }
